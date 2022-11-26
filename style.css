@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #ebebeb;
+    font-family: Roboto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .div-spans {
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .div-spans span {
+    width: 150px;
+  }
+  
+  .header {
+    padding: 1rem;
+    height: 200px;
+    background-color: #eac926;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header ul {
+    /* background-color: #fff; */
+    display: flex;
+    padding:0.4rem;
+    list-style: none;
+    /* justify-content: space-between; */
+    gap: 2rem;
+  }
+  
+  .promotion-image {
+    width: 100%;
+    /* overflow: hidden; */
+  }
+  .promotion-image img {
+    width: 100%;
+  }
+  
+  #section-card {
+    background-color: white;
+    clear: both;
+    margin-top: 1rem;
+  }
+  .section-cards {
+    /* background-color: rgb(167, 82, 82); */
+    padding: 2rem;
+  }
+  
+  .section-card-title {
+    font-size: 40px;
+  }
+  .cards-father {    
+    display: flex;
+  }
+  .card {
+    width: 350px;
+    background: white;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card .card-body {
+    padding-left: 5px;
+    position: relative;
+  }
+  .card .card-body svg {
+    width: 200px;
+    position: absolute;
+    top: 5px;
+    /* background-color: rgb(185, 24, 24); */
+    border: 1px solid green;
+    font-weight: 900;
+    color: black;
+    padding: 2px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  .card img {
+    width: 100%;
+  }
+  
+  .price-porcentage {
+    /* background-color: rgb(162, 70, 70); */
+    display: flex;
+    margin-left: 2rem;
+    justify-content: space-between;
+  }
+  
+  .porcentage {
+    color: green;
+  }
+  .card .card-body {
+    border-top: 1px solid #d0cbcb;
+  }
+  
+  .card .card-body .card-body-description {
+    padding: 25px;
+  }
+  .box {
+    /* background-color: white; */
+    /* margin-bottom: 10px; */
+    text-align: center;
+    /* margin-bottom: 10px; */
+    padding: 10px;
+  }
+  
+  .box-title {
+    /* color: red; */
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  #copyright {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+  }
+  svg {
+    color: #1259c3;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  
